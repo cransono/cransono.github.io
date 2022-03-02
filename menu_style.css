@@ -35,8 +35,8 @@ body {
   padding: 0em 3em 3em;
 }
 body main {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 body main img {
   height: 100%;
@@ -202,7 +202,7 @@ body main h1 {
 }
 .fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--scrolling-text span {
   height: 1em;
-  font-size: 8em;
+  font-size: 1em;
   font-weight: 900;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -224,7 +224,7 @@ body main h1 {
   top: 0;
   right: calc(100vw - 720px);
   z-index: 1001;
-  font-size: 2px;
+  font-size: 1px;
   pointer-events: none;
 }
 .fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img .fsmenu--img-container {
