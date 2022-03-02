@@ -16,7 +16,7 @@ body, html {
 }
 
 @media only screen and (max-width: 768px) {
-    img: url(./images/fox1.jpg) {height: 100%; margin: 0; padding; 0;}
+    img: url(./images/fox1.jpg) {height: 50%; margin: 0; padding; 0;}
 }
 
 @media screen and (max-width: 768px) {
@@ -224,7 +224,7 @@ body main h1 {
   top: 0;
   right: calc(100vw - 720px);
   z-index: 1001;
-  font-size: 8px;
+  font-size: 2px;
   pointer-events: none;
 }
 .fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img .fsmenu--img-container {
