@@ -224,7 +224,7 @@ body main h1 {
   top: 0;
   right: calc(100vw - 720px);
   z-index: 1001;
-  font-size: 16px;
+  font-size: 8px;
   pointer-events: none;
 }
 .fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img .fsmenu--img-container {
