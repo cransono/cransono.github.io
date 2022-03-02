@@ -15,14 +15,20 @@ body, html {
   position: relative;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   html {
 	background: url(./images/fox1.jpg) center center cover no-repeat fixed;
   }
 }
 
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
 body {
-  padding: 8em 3em 3em;
+  padding: 0em 3em 3em;
 }
 body main {
   width: 100%;
