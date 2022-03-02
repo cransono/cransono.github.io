@@ -1,0 +1,45 @@
+html{
+  background-color: #1A1B41;
+  color: #BAFF29;
+  font-family: 'Lato', sans-serif;
+}
+h1{
+  font-family: 'Share Tech', sans-serif;
+  font-size: 45px
+  }
+#links{
+  color:#BAFF29;
+}
+#earlylife{
+  position:relative;
+  left:220px;
+  bottom:250px; background-color:rgb(255, 55, 64);
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	font-family:monospace;
+  position:relative;
+}
+#credits{
+  position:relative;
+  left:500px; background-color:rgb(255, 55, 64);
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	font-family:monospace;
+  position:relative;
+ 
+
+  #companies{
+     color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	font-family:monospace;
+  position:relative;
+    }
