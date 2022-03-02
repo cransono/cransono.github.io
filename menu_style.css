@@ -35,8 +35,8 @@ body {
   padding: 0em 3em 3em;
 }
 body main {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 body main img {
   height: 100%;
