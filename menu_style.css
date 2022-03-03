@@ -403,3 +403,47 @@ body main h1 {
     transform: translate(-40%, -100%);
   }
 }
+
+
+body {
+  background-image: url('./images/fox1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body:after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(0,0,0,0.3);
+  z-index: 2;    
+}
+
+.site {
+  min-height: 100vh;  
+  position: relative;
+  z-index: 3;
+}
+
+.header-image .large-header,
+.header-image .small-header,
+.header-image:after {
+  opacity: 0;  
+}
+
+.header-text img {
+  max-height: 350px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-text img {
+    margin-top: -70px;
+  }  
+}
