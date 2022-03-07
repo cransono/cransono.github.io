@@ -422,13 +422,13 @@ body {
 
 .stage {
   height: 300px;
-  width: 500px;
+  width: 400px;
   margin: auto;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 10;
+  left: 200;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
