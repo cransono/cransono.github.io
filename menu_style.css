@@ -428,7 +428,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  left: -100;
+  left: -50;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
