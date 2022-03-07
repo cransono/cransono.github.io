@@ -417,7 +417,7 @@ body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+  background: radial-gradient(circle, #d72242, #3c0912, #d72242, #000);
 }
 
 .stage {
@@ -438,7 +438,7 @@ body {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -14.5s;
   animation-fill-mode: forwards;
   transform: rotateY(40deg) rotateX(33deg) translateZ(0);
 }
