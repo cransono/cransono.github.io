@@ -411,7 +411,7 @@ body {
 
 // @import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
 // @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
-//@import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=Perdomo");
+// @import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=Perdomo");
 
 body {
   min-height: 450px;
@@ -428,7 +428,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: -100;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
@@ -438,7 +438,7 @@ body {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  animation: ಠ_ಠ 5s infinite alternate ease-in-out -14.5s;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -30s;
   animation-fill-mode: forwards;
   transform: rotateY(40deg) rotateX(33deg) translateZ(0);
 }
@@ -543,7 +543,7 @@ body {
 }
 
 .layer:nth-child(n+11):after {
-  -webkit-text-stroke: 15px dodgerblue;
+  -webkit-text-stroke: 15px deeppink;
   text-shadow: 6px 0 6px #d72242, 5px 5px 5px #3c0912, 0 6px 6px #d72242;
 }
 
