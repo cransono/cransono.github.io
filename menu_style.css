@@ -445,14 +445,14 @@ body {
 
 .layer:after {
 // font: 150px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
-  font: 70px/0.65 "Kaushan Script";
+  font: 60px/0.65 "Kaushan Script";
   content: "Geraldo Perdomo";
   white-space: pre;
   text-align: center;
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 50px;
+  top: 60px;
   color: whitesmoke;
   letter-spacing: -2px;
   text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
@@ -544,11 +544,11 @@ body {
 
 .layer:nth-child(n+11):after {
   -webkit-text-stroke: 15px dodgerblue;
-  text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+  text-shadow: 6px 0 6px #d72242, 5px 5px 5px #3c0912, 0 6px 6px #d72242;
 }
 
 .layer:nth-child(n+12):after {
-  -webkit-text-stroke: 15px #0077ea;
+  -webkit-text-stroke: 15px #ff002d;
 }
 
 .layer:last-child:after {
