@@ -428,7 +428,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 200;
+  left: 0;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
@@ -438,7 +438,7 @@ body {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  animation: ಠ_ಠ 5s infinite alternate ease-in-out -30s;
+  animation: ಠ_ಠ 7s infinite alternate ease-in-out -30s;
   animation-fill-mode: forwards;
   transform: rotateY(40deg) rotateX(33deg) translateZ(0);
 }
@@ -452,6 +452,7 @@ body {
   width: 100%;
   position: absolute;
   top: 60px;
+  left: 10px;
   color: whitesmoke;
   letter-spacing: -2px;
   text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
